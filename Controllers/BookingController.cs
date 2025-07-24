@@ -79,5 +79,19 @@ namespace OfficeBooking.Controllers
                 return View();
             }
         }
+
+
+        // GET: BookingController/Create
+        public ActionResult AdminOverview()
+        {
+            return View();
+        }
+
+
+        // GET: BookingController/Create
+        public ActionResult Mybooking()
+        {
+            return View();
+        }
     }
 }
